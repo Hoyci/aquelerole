@@ -13,7 +13,8 @@ const GlobalStyles = createGlobalStyle`
     
     body {
         font-size: 1.6rem;
-        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: ${({ theme }) => theme.colors.text}
     }
 `;
 
