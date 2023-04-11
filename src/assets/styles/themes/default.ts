@@ -10,6 +10,10 @@ declare module 'styled-components' {
         300: string;
         500: string;
       };
+      purple: {
+        main: string;
+        darker: string;
+      };
     };
   }
 }
@@ -22,6 +26,10 @@ const defaultTheme: DefaultTheme = {
       100: '#F3F4F6',
       300: '#D1D5DB',
       500: '#6B7280',
+    },
+    purple: {
+      main: '#6246EA',
+      darker: '#5a42d1',
     },
   },
 };
